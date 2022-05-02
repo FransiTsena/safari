@@ -78020,7 +78020,7 @@ $1(a){var s,r=null,q="date",p=a.dY(0)
 p.toString
 t.a.a(p)
 s=t.p
-return A.bc(A.b([new A.au(B.fx,A.aI(A.b([A.ez(r,A.lz(J.iF(J.ZO(p.h(0,"votes")),$.dO())?B.p7:B.p8,B.H,r),r,new A.ahl(p,a),r),A.aA(A.d(p.h(0,"vote")),r,r,r,B.e_,r,r,r)],s),B.o,B.a5,B.l),r),B.PX,A.d0(r,A.aI(A.b([A.Aq(new A.ahm(),$.ex().bv(0,p.h(0,"from")).eq(0),t.Pi),A.aA(B.bH[A.b_(p.h(0,q).fM())-1]+" "+A.bW(p.h(0,q).fM())+", "+A.aM(p.h(0,q).fM()),r,r,r,B.Sk,r,r,r)],s),B.Q,B.p,B.l),B.J,!1,r,r,r,r,r,r,r,r,r,r,r,r,new A.ahn(a,p,this.a),r,r,r,r,r,r)],s),B.o,B.p,B.l)},
+return A.bc(A.b([new A.au(B.fx,A.aI(A.b([A.ez(r,A.lz(p.h(0,"votes")!=null&&J.iF(J.ZO(p.h(0,"votes")),$.dO())?B.p7:B.p8,B.H,r),r,new A.ahl(p,a),r),A.aA(A.d(p.h(0,"vote")),r,r,r,B.e_,r,r,r)],s),B.o,B.a5,B.l),r),B.PX,A.d0(r,A.aI(A.b([A.Aq(new A.ahm(),$.ex().bv(0,p.h(0,"from")).eq(0),t.Pi),A.aA(B.bH[A.b_(p.h(0,q).fM())-1]+" "+A.bW(p.h(0,q).fM())+", "+A.aM(p.h(0,q).fM()),r,r,r,B.Sk,r,r,r)],s),B.Q,B.p,B.l),B.J,!1,r,r,r,r,r,r,r,r,r,r,r,r,new A.ahn(a,p,this.a),r,r,r,r,r,r)],s),B.o,B.p,B.l)},
 $S:491}
 A.ahl.prototype={
 $0(){var s=this.a,r=this.b,q=t.P
@@ -78111,7 +78111,7 @@ A.aha.prototype={
 $1(a){var s=null,r=a.dY(0)
 r.toString
 t.a.a(r)
-return A.aI(A.b([A.ez(s,A.lz(J.iF(J.ZO(r.h(0,"votes")),$.dO())?B.p7:B.p8,B.H,s),s,new A.ah8(r,a),s),A.aA(A.d(r.h(0,"vote")),s,s,s,B.e_,s,s,s)],t.p),B.o,B.a5,B.l)},
+return A.aI(A.b([A.ez(s,A.lz(r.h(0,"votes")!=null&&J.iF(J.ZO(r.h(0,"votes")),$.dO())?B.p7:B.p8,B.H,s),s,new A.ah8(r,a),s),A.aA(A.d(r.h(0,"vote")),s,s,s,B.e_,s,s,s)],t.p),B.o,B.a5,B.l)},
 $S:101}
 A.ah8.prototype={
 $0(){var s=this.a,r=this.b,q=t.P
