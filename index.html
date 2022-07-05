@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
   <base href="/safari/">
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new shcool web project.">
+  <meta name="description" content="Start your own business for free with Safari student plan and make your own E-commerce app in Ethiopia">
+  <meta name="title" content="Safari - Free Business">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="safari">
+  <meta name="apple-mobile-web-app-title" content="Safari">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="logo.png"/>
 
-  <title>safari</title>
+  <title>Safari</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://meet.jit.si/external_api.js" type="application/javascript"></script>
 
   <script>
-      var firebaseConfig = {
-         apiKey: "AIzaSyBomverzX1eC1KoSgtu1UNUpAYpjXq8p-Y",
-        authDomain: "daybee-freelancing.firebaseapp.com",
-        projectId: "daybee-freelancing",
-        storageBucket: "daybee-freelancing.appspot.com",
-        messagingSenderId: "893252510772",
-        appId: "1:893252510772:web:37a0f86cdaa4e2a2e79661",
-        measurementId: "G-57DZZ89TXB"
-       };
-     firebase.initializeApp(firebaseConfig);
-   </script>
+        var firebaseConfig = {
+              apiKey: "AIzaSyAdpwQDL1RG0k06pE2CIW7S_OC7t8sXgL0",
+              authDomain: "safari-horizon.firebaseapp.com",
+              projectId: "safari-horizon",
+              storageBucket: "safari-horizon.appspot.com",
+              messagingSenderId: "349762784524",
+              appId: "1:349762784524:web:da2d082eee27e0ea190d29",
+              measurementId: "G-XFXT8XY0JK"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+  </script>
+
 
   <script>
-    var serviceWorkerVersion = '67005480';
+    var serviceWorkerVersion = '1709347847';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -115,5 +105,102 @@
       loadMainDartJs();
     }
   </script>
+
+  <style type="text/css">
+  #logo {
+    position : absolute;
+    bottom : 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+</style>
+  <style type="text/css">
+  #load {
+    position : absolute;
+    bottom : 50%;
+    left : 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+</style>
+  <center>
+    <img src="logo.png" alt="Safari logo" width="100" height="100" id="logo">
+  </center>
+
+  <style type="text/css">
+{
+  padding: 0;
+  margin: 0;
+}
+.loader>span {
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: #FF0037FF;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 5px;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot-1 {
+  animation: anim 1s linear 0s infinite;
+}
+.dot-2 {
+  animation: anim 1s linear 0.25s infinite;
+}
+.dot-3 {
+  animation: anim 1s linear 0.50s infinite;
+}
+.dot-4 {
+  animation: anim 1s linear 0.75s infinite;
+}
+@keyframes anim {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 15px;
+  }
+  100% {
+    top: 0;
+  }
+}
+</style>
+  <div class="loader-outer" id="load">
+    <div class="loader">
+      <span class="dot dot-1"></span>
+      <span class="dot dot-2"></span>
+      <span class="dot dot-3"></span>
+      <span class="dot dot-4"></span>
+    </div>
+  </div>
+
 </body>
+
+<footer>
+  <style type="text/css">
+    #footer {
+      position : absolute;
+      bottom : 0;
+      left: 50%;
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      height : 40px;
+      margin-top : 40px;
+      font-size: medium;
+    }
+  </style>
+  <center>
+    <h2 id="footer">Free professional business ideas and provide support from the beginning  to your succession</h2>
+  </center>
+
+</footer>
+
 </html>
